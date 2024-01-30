@@ -19,7 +19,7 @@ jobs:
         with:
             java-version: '17'
             distribution: 'zulu'
-            cache: 'maven'
+
 
       - name: Build with gradle
         run: ./gradlew build
